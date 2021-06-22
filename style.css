@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(270deg, #CED1D6, #56595f);
+    font-family: 'Cabin', cursive;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 50vh;
+}
+
+.title {
+    font-size: 3rem;
+    align-items: center;
+}
+
+input {
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 4px rgba(126, 124, 124, 0.9);
+    padding: 1rem 1rem;
+    font-family: inherit;
+    font-size: larger;
+    min-width: 300px;
+    margin-top: 3rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.weather h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.weather img {
+    transform: scale(2);
+    padding-right: 1rem;
+}
