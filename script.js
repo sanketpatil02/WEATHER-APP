@@ -11,8 +11,6 @@ async function getWeatherData(location) {
 
     const respData = await resp.json();
 
-    // console.log(respData);
-
     showWeatherToPage(respData);
 }
 
